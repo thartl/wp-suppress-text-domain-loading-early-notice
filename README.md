@@ -1,8 +1,10 @@
-# Suppress Translation Timing Notice (MU‑plugin)
+# Suppress Translation Timing Notice
 
 **File:** `osimpw-suppress-text-domain-loading-notice.php`
 
 ## Installation
+
+This plugin must be installed as a must-use plugin to ensure it loads before user-installed plugins.
 
 Download the PHP file and place in:
 

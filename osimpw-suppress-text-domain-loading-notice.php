@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Suppress Translation Timing Notice (MU‑plugin)
+ * Plugin Name: Suppress Translation Timing Notice
  * Plugin URI:  https://github.com/thartl/wp-suppress-text-domain-loading-early-notice
  * Description: Silences the “Translation loading … triggered too early” notice introduced in WordPress 6.7.
  * Version:     1.0.0
@@ -9,7 +9,6 @@
 */
 
 namespace OsimPW\SuppressTextDomainLoadingNotice;
-
 
 if ( version_compare( $GLOBALS['wp_version'], '6.7', '<' ) ) {
 	return;
